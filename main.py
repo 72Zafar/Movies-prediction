@@ -26,10 +26,6 @@ df = pd.DataFrame({
 })
 
 
-# # Save to SQLite database
-# conn = sqlite3.connect('movies.db')
-# df.to_sql('movies', conn, if_exists='replace', index=False)
-# conn.close()
 
 try:
     conn = sqlite3.connect('movies.db')
